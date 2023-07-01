@@ -12,7 +12,7 @@ function createDomElements() {
     var existingChild = currentChildren.find(function(child) {
       return child.dataset.id === String(item.id);
     });
-
+//
     if (existingChild) {
       updated++;
       // If it exists, update it
